@@ -31,7 +31,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 # 데이터 유형 정의
 # -------------------------
 DATA_TYPE_OPTIONS = {
-    "일반 실험": {
+    "일반": {
         "desc": "변수 간 관계 분석이 목적인 일반 실험 데이터",
         "is_instrument": False,
     },
