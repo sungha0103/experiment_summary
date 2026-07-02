@@ -7,7 +7,7 @@ import numpy as np
 
 st.set_page_config(page_title="실험 데이터 분석 앱", layout="wide")
 
-st.title("📊 실험 데이터 자동 분석 앱")
+st.title("📊 실험 데이터 분석 ")
 
 file = st.file_uploader("CSV 파일 업로드", type="csv")
 
