@@ -81,7 +81,7 @@ with st.sidebar:
     file = st.file_uploader("CSV 파일 업로드", type="csv")
 
 if file is None:
-    st.info("실험 데이터는 복잡하게, 결과는 간단하게."
+    st.info("실험 데이터는 복잡하게, 결과는 간단하게."\n
         "사이드바에서 CSV 파일을 업로드해 주세요.")
     st.stop()
 
