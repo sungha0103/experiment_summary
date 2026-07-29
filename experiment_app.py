@@ -148,8 +148,8 @@ def analyze(df, x_col, y_col, is_instrument, remove_outliers, zscore_threshold):
 # -------------------------
 # 페이지 설정
 # -------------------------
-st.set_page_config(page_title="실험 데이터 자동 분석 앱", layout="wide")
-st.title("실험 데이터 자동 분석 앱")
+st.set_page_config(page_title="세줄요약좀", layout="wide")
+st.title("세줄요약좀")
 
 MAX_ROWS = 50_000
 MAX_MB = 10
